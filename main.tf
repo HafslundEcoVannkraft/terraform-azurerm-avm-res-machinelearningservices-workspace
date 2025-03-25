@@ -33,6 +33,7 @@ resource "azapi_resource" "this" {
         }
       } : null
       primaryUserAssignedIdentity = var.managed_identities.system_assigned == true ? "" : var.primary_user_assigned_identity.resource_id
+      v1LegacyMode = var.v1_legacy_mode_enabled
     }
     kind = var.kind
   }

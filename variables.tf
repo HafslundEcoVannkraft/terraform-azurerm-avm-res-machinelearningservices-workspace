@@ -402,6 +402,12 @@ variable "tags" {
   description = "(Optional) Tags of the resource."
 }
 
+variable "v1_legacy_mode_enabled" {
+  description = "Enable V1 API features, enabling v1_legacy_mode may prevent you from using features provided by the v2 API. Defaults to false"
+  default     = false
+  type        = bool
+}
+
 variable "workspace_description" {
   type        = string
   default     = ""

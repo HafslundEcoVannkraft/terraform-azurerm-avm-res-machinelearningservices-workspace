@@ -570,6 +570,16 @@ Type: `map(string)`
 
 Default: `null`
 
+v1_legacy_mode_enabled
+### <a name="input_v1_legacy_mode_enabled"></a> [v1\_legacy\_mode\_enabled](#input\_v1\_legacy\_mode\_enabled)
+
+Description: Enable V1 API features, enabling v1_legacy_mode may prevent you from using features provided by the v2 API. Defaults to false.
+
+Type: `bool`
+
+Default: `false`
+
+
 ### <a name="input_workspace_description"></a> [workspace\_description](#input\_workspace\_description)
 
 Description: The description of this workspace.
